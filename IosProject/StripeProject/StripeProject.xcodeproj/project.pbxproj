@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1930BAC61CAAD3EA009FFE48 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1930BAC51CAAD3EA009FFE48 /* PaymentController.swift */; };
+		1973BF881CB3E2BB00F5AD6D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1973BF871CB3E2BB00F5AD6D /* LocalAuthentication.framework */; };
 		B888580F1CAABD9800EC354E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888580E1CAABD9800EC354E /* AppDelegate.swift */; };
 		B88858111CAABD9800EC354E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88858101CAABD9800EC354E /* ViewController.swift */; };
 		B88858141CAABD9800EC354E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88858121CAABD9800EC354E /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1930BAC51CAAD3EA009FFE48 /* PaymentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		1973BF871CB3E2BB00F5AD6D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		B888580B1CAABD9800EC354E /* StripeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StripeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B888580E1CAABD9800EC354E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B88858101CAABD9800EC354E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1973BF881CB3E2BB00F5AD6D /* LocalAuthentication.framework in Frameworks */,
 				B88858231CAABEF900EC354E /* Fabric.framework in Frameworks */,
 				B88858241CAABEF900EC354E /* Stripe.framework in Frameworks */,
 			);
@@ -44,6 +49,7 @@
 		B88858021CAABD9800EC354E = {
 			isa = PBXGroup;
 			children = (
+				1973BF871CB3E2BB00F5AD6D /* LocalAuthentication.framework */,
 				B888580D1CAABD9800EC354E /* StripeProject */,
 				B888580C1CAABD9800EC354E /* Products */,
 				B88858211CAABEF900EC354E /* Fabric.framework */,
@@ -68,6 +74,7 @@
 				B88858151CAABD9800EC354E /* Assets.xcassets */,
 				B88858171CAABD9800EC354E /* LaunchScreen.storyboard */,
 				B888581A1CAABD9800EC354E /* Info.plist */,
+				1930BAC51CAAD3EA009FFE48 /* PaymentController.swift */,
 			);
 			path = StripeProject;
 			sourceTree = "<group>";
@@ -163,6 +170,7 @@
 			files = (
 				B88858111CAABD9800EC354E /* ViewController.swift in Sources */,
 				B888580F1CAABD9800EC354E /* AppDelegate.swift in Sources */,
+				1930BAC61CAAD3EA009FFE48 /* PaymentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +328,7 @@
 				B888581F1CAABD9800EC354E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
